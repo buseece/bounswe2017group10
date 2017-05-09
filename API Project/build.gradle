@@ -47,4 +47,6 @@ dependencies {
     compile("mysql:mysql-connector-java")
     compile("org.hibernate:hibernate-core")
     compile("org.hibernate:hibernate-entitymanager")
+    
+    testCompile 'junit:junit:4.12'
 }
